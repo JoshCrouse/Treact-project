@@ -193,18 +193,28 @@ nav {
   background-color: transparent;
   border: none;
   transition: all 300ms ease;
+  cursor: pointer;
 }
 
 .btn__menu--svg:hover {
   filter: invert(26%) sepia(94%) saturate(7476%) hue-rotate(261deg)
     brightness(94%) contrast(115%);
-  background-color: #36049a;
 }
 
 .btn__menu--close {
   position: fixed;
   top: 24px;
   right: 18px;
+}
+
+.modal__link {
+    cursor: pointer;
+
+}
+
+.modal__link--primary:hover {
+    background-color: #36049a;
+    opacity: 0.8;
 }
 
 /*
