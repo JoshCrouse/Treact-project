@@ -691,6 +691,12 @@ VALUES ↓
 
 #values .btn {
     margin-top: 48px;
+    transition: all 300ms ease;
+}
+
+#values .btn:hover {
+    opacity: 0.8;
+    background-color: #36049a;
 }
 
 .value__img {
@@ -837,7 +843,7 @@ PRICING ↓
 .plan__button {
     padding: 1rem 2rem;
     font-weight: 700;;
-    transition: 300ms;
+    transition: all 300ms ease;
     width: 100%;
     border-radius: 9999px;
     font-size: 0.875rem;
@@ -845,6 +851,7 @@ PRICING ↓
     letter-spacing: 0.05em;
     cursor: pointer;
 }
+
 
 .plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
     color: rgb(247, 250, 252);
